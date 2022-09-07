@@ -1,2 +1,2 @@
 # rsschool-cv
-https://pepsif.github.io/rsschool-cv/cv
+https://github.com/pepsif/rsschool-cv/blob/gh-pages/cv.md

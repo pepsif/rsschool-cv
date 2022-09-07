@@ -1,42 +1,31 @@
-![my foto ](/foto.jpg)
-## Furman Vitalii
+## Vitalii Furman 
 
-[EMAIL ](https://pepsif980@gmail.com)     pepsif980@gmail.com
+![foto ](/foto.jpg "My foto")
 
+**Email:** *pepsif980@gmail.com*
 
+**AGE:** *43*
 
-Education
----------
+**English language level:** *A2*
 
-2010-2014 (expected)
-:   **PhD, Computer Science**; Awesome University (MyTown)
+**Education:** *secondary*
 
-    *Thesis title: Deep Learning Approaches to the Self-Awesomeness
-     Estimation Problem*
+**nickname in discord-server "rs-school":**  *@pepsif*
 
-2007-2010
-:   **BSc, Computer Science and Electrical Engineering**; University of
-HomeTown (HomeTown)
+**No experience as a front-end developer **
 
-    *Minor: Awesomeology*
-
-Experience
-----------
-
-**Your Most Recent Work Experience:**
-
-Short text containing the type of work done, results obtained,
-lessons learned and other remarks. Can also include lists and
-links:
-
-* First item
-
-* Item with [link](http://www.example.com). Links will work both in
-  the html and pdf versions.
-
-**That Other Job You Had**
-
-Also with a short description.
+Hard Skills
+--------- 
+1. HTML: Basic.
+2. CSS: Basic.
+3. JS: Basic.
+4. confident user PC.
+5. progress courses "HTML Academy" 82 percent
+  
+Soft Skills
+-----------
+1. Stress resistance
+2. Willingness to learn
 
 Technical Experience
 --------------------

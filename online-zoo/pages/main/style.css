@@ -1,29 +1,130 @@
 body {
-    color:white;
-    background-color:#837474;
+    color: white;
+    background-color: #837474;
+    font-family: "Roboto",sans-serif;
 }
+
 .container {
+    width: 1160px;
+    /*     background-color: red; */
+    margin: 0 auto;
 }
 
 /*     ---------HEADER------------- */
 header {
-    
+    background-color: #000000;
 }
+
 .header-inner {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-.logo {
+
+.logo-navigation-block {
+    display: flex;
+    align-items: center;
 }
+
+/* ---------LOGO------------------- */
+.logo-block {
+    height: 52px;
+    margin-right: 63px;
+    position: relative;
+}
+
 .logo-title {
+    font-size: 19px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
 }
+
+.logo-title2 {
+    text-align: center;
+}
+
 .logo-icon {
+    width: 10px;
+    height: 20.98px;
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
 }
+
 .navigation {
 }
+
 .navigation-list {
+    display: flex;
+    list-style: none;
 }
+
 .navigation-item {
+    margin-right: 68px;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
 }
+
+.navigation-item:hover {
+    color: orange;
+}
+
 .copyright-block {
 }
+
 .copyright-title {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+/* --------HEADER-MAIN--------------- */
+.header-main {
+    background: url('../../assets/images/Giant\ Panda.jpg') no-repeat;
+    background-size: cover;
+}
+
+.container {
+}
+
+.header-main-inner {
+    height: 700px;
+    display: flex;
+    justify-content: right;
+      position: relative;
+}
+
+.watch-block {
+    width: 500px;
+    height: 400px;
+  
+    margin-top:86px;
+    /*     background-color:green; */
+     z-index:1;
+}
+
+.watch-block-slogan {
+    font-weight: 700;
+    font-size: 106px;
+    line-height: 75%;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: normal;
+   
+}
+.yellow {
+    color:yellow;
+}
+.watch-block-orange-circle {
+    position:absolute;
+    right:9.9%;
+    top:1%;
+    
 }

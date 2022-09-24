@@ -32,6 +32,7 @@ header {
     height: 52px;
     margin-right: 63px;
     position: relative;
+    cursor:pointer;
 }
 
 .logo-title {
@@ -65,13 +66,18 @@ header {
 
 .navigation-item {
     margin-right: 68px;
-    font-size: 16px;
+  
+    cursor:pointer;
+}
+.navigation-link {
+   color:white;
+    text-decoration:none;
+      font-size: 16px;
     font-weight: 500;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.4;
 }
-
 .navigation-item:hover {
     color: orange;
 }
@@ -83,6 +89,7 @@ header {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.4;
+    cursor:pointer;
 }
 
 /* --------HEADER-MAIN--------------- */

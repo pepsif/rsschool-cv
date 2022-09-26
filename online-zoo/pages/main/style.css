@@ -226,13 +226,19 @@ header {
     width: 366px;
     height: 426px;
     position: relative;
+    border:1px solid #E5E5E5;
+    margin:0 0 20px 0;
+  
 }
-
+.card img {
+      border-radius:10px;
+}
 .card-title {
-    font-weight: 500;
+    font-weight: 600;
     font-size: 16px;
+    font-style: normal;
     line-height: 140%;
-    /* or 22px */
+   margin-top:8px;
     text-transform: uppercase;
 }
 
@@ -240,10 +246,11 @@ header {
     font-weight: 300;
 font-size: 15px;
 line-height: 120%;
+  margin-bottom:14px;
 }
 
 .card-icon {
     position: absolute;
-    bottom: 0;
-    right: 0;
+    bottom: 13px;
+    right: 12px;
 }

@@ -1,12 +1,12 @@
 body {
     color: white;
-    background-color: #837474;
+    /*     background-color: #837474; */
     font-family: "Roboto",sans-serif;
 }
 
 .container {
     width: 1160px;
-    /*     background-color: red; */
+    /* background-color: red; */
     margin: 0 auto;
 }
 
@@ -32,7 +32,7 @@ header {
     height: 52px;
     margin-right: 63px;
     position: relative;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 .logo-title {
@@ -66,18 +66,19 @@ header {
 
 .navigation-item {
     margin-right: 68px;
-  
-    cursor:pointer;
+    cursor: pointer;
 }
+
 .navigation-link {
-   color:white;
-    text-decoration:none;
-      font-size: 16px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
     font-weight: 500;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.4;
 }
+
 .navigation-item:hover {
     color: orange;
 }
@@ -89,7 +90,7 @@ header {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.4;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 /* --------HEADER-MAIN--------------- */
@@ -105,16 +106,15 @@ header {
     height: 700px;
     display: flex;
     justify-content: right;
-      position: relative;
+    position: relative;
 }
 
 .watch-block {
     width: 500px;
     height: 400px;
-  
-    margin-top:86px;
+    margin-top: 86px;
     /*     background-color:green; */
-     z-index:1;
+    z-index: 1;
 }
 
 .watch-block-slogan {
@@ -124,14 +124,85 @@ header {
     text-transform: uppercase;
     text-align: center;
     letter-spacing: normal;
-   
 }
+
 .yellow {
-    color:yellow;
+    color: yellow;
 }
+
 .watch-block-orange-circle {
-    position:absolute;
-    right:9.9%;
-    top:1%;
-    
+    position: absolute;
+    right: 9.9%;
+    top: 1%;
+}
+
+.watch-button {
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 25px;
+    color: white;
+    padding: 16px 89px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    text-transform: uppercase;
+    margin:76px 0 0 90px;
+    border:none;
+}
+
+/* -------BACKSTAGE-SECTION-------- */
+.backstage-section {
+    /*     background-color:red; */
+    color: black;
+}
+
+.backstage-section .container {
+    position: relative;
+    height: 800px;
+}
+
+.backstage-image {
+    position: absolute;
+    left: 0;
+    top: 140px;
+}
+
+.backstage-image2 {
+    position: absolute;
+    right: -25%;
+}
+
+.info-block {
+    width: 465px;
+    position: absolute;
+    right: 0;
+    margin: 140px 0 180px 0;
+}
+
+.infoblock-title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+    margin-bottom: 20px;
+}
+
+.infoblock-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    margin-bottom: 54px;
+}
+
+.infoblock-subtitle {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    margin-bottom: 34px;
+}
+
+.infoblock-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
 }

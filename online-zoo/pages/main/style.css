@@ -146,8 +146,8 @@ header {
     line-height: 140%;
     text-align: center;
     text-transform: uppercase;
-    margin:76px 0 0 90px;
-    border:none;
+    margin: 76px 0 0 90px;
+    border: none;
 }
 
 /* -------BACKSTAGE-SECTION-------- */
@@ -205,4 +205,45 @@ header {
     font-weight: 400;
     font-size: 16px;
     line-height: 140%;
+}
+
+/* -------PETS-GALLERY----------- */
+.gallery {
+    color: black;
+}
+
+.gallery .container {
+    /*     background-color:red; */
+}
+
+.gallery-block {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+
+.card {
+    width: 366px;
+    height: 426px;
+    position: relative;
+}
+
+.card-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    text-transform: uppercase;
+}
+
+.card-description {
+    font-weight: 300;
+font-size: 15px;
+line-height: 120%;
+}
+
+.card-icon {
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }

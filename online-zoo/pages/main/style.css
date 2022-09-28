@@ -434,7 +434,7 @@ header {
 }
 
 .testimonials .container {
-    /*     background-color:Red; */
+  position:relative;
 }
 
 .testimonials-title {
@@ -534,4 +534,73 @@ header {
     border-radius: 5px;
     border: none;
     margin:0 0 140px 0;
+}
+.testimonials-bg {
+    position:absolute;
+    right:0%;
+    bottom:-10%;
+    z-index:-1;
+}
+
+/* -----FOOTER----------- */
+footer {
+    background-color:#000000;
+}
+.container {
+}
+.footer-top {
+    display:flex;
+    justify-content:space-between;
+    padding:40px 0 0 0;
+    
+}
+.footer-logo-block {
+    width:82px;
+    height: 52px;
+    margin-right: 63px;
+    position: relative;
+    cursor: pointer;
+    
+}
+.footer-logo-title {
+      font-size: 19px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+}
+.footer-logo-title2 {
+ 
+}
+.footer-logo-icon {
+}
+.subscribe-block {
+}
+.subscribe-title {
+      font-weight: 400;
+font-size: 24px;
+line-height: 120%; 
+}
+.subscribe-input-block {
+    margin:14px 0 0 0;
+}
+.subscribe-input {
+    width:228px;
+    height:42px;
+    background-color:#000000;
+    border:1px solid orange;
+    border-radius:5px;
+    padding-left:10px;
+}
+.subscribe-button {
+    margin-left:9px;
+}
+
+
+/* ----FOOTER-MIDDLE----- */
+
+.footer-middle {
+}
+.footer-bottom {
 }

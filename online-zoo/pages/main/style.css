@@ -449,6 +449,9 @@ header {
     background-color: #F1F3F2;
     width: 268px;
     height: 391px;
+    border:2px solid red;
+    border-radius: 20px;
+/*     margin-right:30px; */
 }
 
 .card-title-block {

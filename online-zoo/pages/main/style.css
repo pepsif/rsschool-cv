@@ -165,7 +165,7 @@ header {
     position: absolute;
     left: 0;
     top: 140px;
-     width: 50%;
+    width: 50%;
     height: 50%;
 }
 
@@ -173,11 +173,11 @@ header {
     position: absolute;
     right: -25%;
     width: 20%;
-  height: 80%;
+    height: 80%;
 }
 
 .info-block {
-    width: 465px;
+    max-width: 465px;
     position: absolute;
     right: 0;
     margin: 140px 0 180px 0;
@@ -335,7 +335,7 @@ header {
     border-radius: 20px;
     backdrop-filter: blur(4px);
     background-color: rgba(253, 253, 255, 0.52);
-    padding:0 32px;
+    padding: 0 32px;
 }
 
 .pick-title {
@@ -386,7 +386,112 @@ header {
     text-align: center;
 }
 
+/* ---PICK-LIST------ */
+.pick-list {
+    display: flex;
+    text-align: center;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.pick-list li:nth-child(2)::before {
+    content: url('../../assets/icons/arrow-right.png');
+    position: absolute;
+    top: 20%;
+    left: -5rem;
+}
+
+.pick-list li:nth-child(2)::after {
+    content: url('../../assets/icons/arrow-right.png');
+    position: absolute;
+    top: 20%;
+    right: -5rem;
+}
+
+.pick-item {
+    width: 168px;
+    height: 244px;
+    position: relative;
+    /*     margin-right:130px; */
+}
+
+.pick-image {
+    background-color: white;
+    width: 130px;
+    height: 130px;
+    border: 1px solid #f9804b;
+    padding: 25px;
+    ; border-radius: 10px;
+}
+
+.pick-info {
+    margin-top: 30px;
+}
+
+/* -------TESTIMONIALS--ARTICLE----- */
+.testimonials {
+    color:black;
+}
+.testimonials .container {
+/*     background-color:Red; */
+}
+.testimonials-title {
+    text-align:center;
+    margin:140px 0 47px 0;
+}
+
+.review-block {
+    display:flex;
+    justify-content:space-around;
+}
+
+.review-card {
+    background-color: #F1F3F2;
+    width: 268px;
+    height: 391px;
+}
+
+.card-title-block {
+    display:flex;
+    align-items:center;
+     margin:15px 10px 0 16px;
+
+}
+.card-date-block {
+    display:flex;
+    flex-direction:column;
+}
+.card-foto-image {
+    width:37px;
+    height:37px;
+   margin-right:10px;
+}
+
+.user-name {
+    font-weight: 400;
+font-size: 16px;
+line-height: 120%;
+/* or 19px */
 
 
+color: #000000;
+}
 
-    
+.message-date {
+    font-weight: 300;
+font-size: 15px;
+line-height: 120%;
+color: #BDBDBD;
+}
+
+.message-data-image {
+}
+
+.card-review-text {
+padding:10px 15px 10px 17px;
+    font-weight: 300;
+font-size: 15px;
+line-height: 120%;
+
+color: #767474;
+}

@@ -1,6 +1,8 @@
 @media (max-width: 1200px) {
     body {
-         margin:0 0 0 20%;
+/*          margin:0 0 0 20%; */
+        padding:0 20px;
+     
     }
 
 .header-inner {
@@ -21,6 +23,11 @@ justify-content:space-evenly;
    
 }
 
+/* ----GALLERY-BLOCK------ */
+.gallery-block {
+    justify-content:space-evenly;
+}
 
+    
 
 }

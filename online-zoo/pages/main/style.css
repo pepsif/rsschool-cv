@@ -110,8 +110,8 @@ header {
 }
 
 .watch-block {
-    width: 500px;
-    height: 400px;
+    max-width: 500px;
+    max-height: 400px;
     margin-top: 86px;
     /*     background-color:green; */
     z-index: 1;
@@ -229,8 +229,8 @@ header {
     display: block;
     /* background-color:red; */
     position: absolute;
-    left: -80px;
-    top: 50%;
+    left: -70px;
+    top: 40%;
     transform: translateY(-50%);
     z-index: 1;
 }
@@ -240,8 +240,8 @@ header {
     display: block;
     /* background-color:red; */
     position: absolute;
-    right: -80px;
-    top: 50%;
+    right: -70px;
+    top: 40%;
     transform: translateY(-50%);
     z-index: 1;
 }
@@ -655,7 +655,7 @@ footer {
 .footer-bottom {
     display: flex;
     margin-top: 40px;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-bottom: 50px;
 }
 
@@ -671,8 +671,13 @@ line-height: 140%;
 }
 
 .social-item {
+    display:flex;
+    align-items:center;
+  
 }
-
+.social-item img {
+      margin-right:12px;
+}
 /* ---NAViGATION-BLOCK--------- */
 .footer-navigation-block {
     display: flex;

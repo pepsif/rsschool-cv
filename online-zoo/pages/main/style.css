@@ -1,6 +1,6 @@
 body {
     color: white;
-    /*     background-color: #837474; */
+    /* background-color: #837474; */
     font-family: "Roboto",sans-serif;
 }
 
@@ -434,7 +434,7 @@ header {
 }
 
 .testimonials .container {
-  position:relative;
+    position: relative;
 }
 
 .testimonials-title {
@@ -533,82 +533,89 @@ header {
     color: #fff;
     border-radius: 5px;
     border: none;
-    margin:0 0 140px 0;
+    margin: 0 0 140px 0;
 }
+
 .testimonials-bg {
-    position:absolute;
-    right:0%;
-    bottom:-10%;
-    z-index:-1;
+    position: absolute;
+    right: 0%;
+    bottom: -10%;
+    z-index: -1;
 }
 
 /* -----FOOTER----------- */
 footer {
-    background-color:#000000;
+    background-color: #000000;
 }
+
 .container {
 }
+
 .footer-top {
-    display:flex;
-    justify-content:space-between;
-    padding:40px 0 0 0;
-    
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0 0 0;
 }
+
 .footer-logo-block {
-    width:82px;
+    width: 82px;
     height: 52px;
     margin-right: 63px;
     position: relative;
     cursor: pointer;
-    
 }
+
 .footer-logo-title {
-      font-size: 19px;
+    font-size: 19px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.2;
     letter-spacing: normal;
-    text-align:center;
+    text-align: center;
 }
+
 .footer-logo-title2 {
- text-align:center;
+    text-align: center;
 }
+
 .footer-logo-icon {
-    position:absolute;
-    bottom:11px;
-    left:10px
+    position: absolute;
+    bottom: 11px;
+    left: 10px
 }
+
 .subscribe-block {
 }
+
 .subscribe-title {
-      font-weight: 400;
-font-size: 24px;
-line-height: 120%; 
-}
-.subscribe-input-block {
-    margin:14px 0 0 0;
-}
-.subscribe-input {
-    width:228px;
-    height:42px;
-    background-color:#000000;
-    border:1px solid orange;
-    border-radius:5px;
-    padding-left:10px;
-}
-.subscribe-button {
-    margin-left:9px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
 }
 
+.subscribe-input-block {
+    margin: 14px 0 0 0;
+}
+
+.subscribe-input {
+    width: 228px;
+    height: 42px;
+    background-color: #000000;
+    border: 1px solid orange;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.subscribe-button {
+    margin-left: 9px;
+}
 
 /* ----FOOTER-MIDDLE----- */
-
 .footer-middle {
-    
 }
-.donate-button {
 
+.donate-button {
     background-color: orange;
     padding: 18px 41px;
     font-size: 16px;
@@ -619,10 +626,65 @@ line-height: 120%;
     color: #fff;
     border-radius: 5px;
     border: none;
-/*     margin:0 0 140px 0; */
+    /*     margin:0 0 140px 0; */
 }
 
 /* --FOOTER-BOTTOM----- */
-
 .footer-bottom {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-around;
+    padding-bottom:50px;
+}
+
+/* ---SOCIAL-BLOCK----- */
+.social-block {
+}
+
+.social-list {
+    list-style: none;
+}
+
+.social-item {
+}
+
+/* ---NAViGATION-BLOCK--------- */
+.footer-navigation-block {
+    display: flex;
+    align-items:flex-end;
+}
+
+.footer-navigation {
+}
+
+.footer-navigation-list {
+    list-style: none;
+    display: flex;
+}
+
+.footer-navigation-item {
+    margin-right:48px;
+    cursor:pointer;
+}
+
+/* --DESIGNED-BLOCK----- */
+.designed-block {
+    display:flex;
+    flex-direction:column;
+    justify-content:end;
+
+    font-size: 16px;
+  font-weight: 100;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.3;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+    opacity:.2;
+}
+.designed-title {
+    
+}
+.designed-copyright {
 }

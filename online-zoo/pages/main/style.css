@@ -569,11 +569,15 @@ footer {
     font-style: normal;
     line-height: 1.2;
     letter-spacing: normal;
+    text-align:center;
 }
 .footer-logo-title2 {
- 
+ text-align:center;
 }
 .footer-logo-icon {
+    position:absolute;
+    bottom:11px;
+    left:10px
 }
 .subscribe-block {
 }
@@ -601,6 +605,24 @@ line-height: 120%;
 /* ----FOOTER-MIDDLE----- */
 
 .footer-middle {
+    
 }
+.donate-button {
+
+    background-color: orange;
+    padding: 18px 41px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.4;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+/*     margin:0 0 140px 0; */
+}
+
+/* --FOOTER-BOTTOM----- */
+
 .footer-bottom {
 }

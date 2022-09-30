@@ -1,33 +1,88 @@
 @media (max-width: 1200px) {
     body {
-/*          margin:0 0 0 20%; */
-        padding:0 20px;
-     
+        /*          margin:0 0 0 20%; */ padding:0 20px;
     }
 
-.header-inner {
-justify-content:space-evenly;
-    
-}
-.copyright-title {
-    display:none;
-}
+    .header-inner {
+        justify-content: space-evenly;
+    }
+
+    .copyright-title {
+        display: none;
+    }
 
     .header-main {
         background: url('../../assets/images/Giant\ Panda.jpg') no-repeat;
         background-size: auto;
     }
 
-.info-block {
-    max-width: 370px;
+    .info-block {
+        max-width: 370px;
+        right: 5%;
+    }
+
+    .backstage-image2 {
+        right: -12%;
+        width: 15%;
+        height: 70%;
+    }
+
+    /* ----GALLERY-BLOCK------ */
+    .gallery-block {
+        justify-content: space-evenly;
+    }
+
+.gallery-bg {
    
+    left: -5%;
+    bottom: 0%;
+    width: 222px;
+    height: 360px;
+    z-index:-1;
+}
+    
+.gallery-bg2 {
+    
+    right: -5%;
+    bottom: 0%;
+    width: 200px;
+    height: 275px;
 }
 
-/* ----GALLERY-BLOCK------ */
-.gallery-block {
-    justify-content:space-evenly;
-}
+
+
 
     
+}
 
+/*   ----- MAX-WIDTH-1144PX------ */
+
+
+/* ---GALLERY--SLIDER-BUTTON---------- */
+
+@media (max-width: 1144px) and (max-width: 1144px) {
+    .gallery .container::before {
+        left: 4%;
+        top: 40%;
+    }
+
+    .gallery .container::after {
+        right: 4%;
+        top: 40%;
+    }
+
+    
+}
+@media (max-width: 1078px)  {
+    .gallery .container::before {
+        left: 0;
+        top: 40%;
+    }
+
+    .gallery .container::after {
+        right: 0;
+        top: 40%;
+    }
+
+    
 }

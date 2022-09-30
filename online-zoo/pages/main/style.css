@@ -2,6 +2,7 @@ body {
     color: white;
     /* background-color: #837474; */
     font-family: "Roboto",sans-serif;
+    margin:0 auto;
 }
 
 .container {
@@ -518,6 +519,7 @@ header {
     height: 8px;
     margin: 20px 0 52px 50%;
     transform: translateX(-50%);
+    background:#f3f3f3;
 }
 
 .progress-bar {

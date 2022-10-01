@@ -1,0 +1,406 @@
+body {
+    color: white;
+    /* background-color: #837474; */
+    font-family: "Roboto",sans-serif;
+    /*     margin:0 auto; */
+    /* overflow-x:hidden; */
+}
+
+.container {
+    max-width: 1160px;
+    /*     background-color: red; */
+    margin: 0 auto;
+}
+
+/*     ---------HEADER------------- */
+header {
+    background-color: #000000;
+}
+
+.header-inner {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-navigation-block {
+    display: flex;
+    align-items: center;
+}
+
+/* ---------LOGO------------------- */
+.logo-block {
+    height: 52px;
+    margin-right: 63px;
+    position: relative;
+    cursor: pointer;
+}
+
+.logo-title {
+    font-size: 19px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+}
+
+.logo-title2 {
+    text-align: center;
+}
+
+.logo-icon {
+    width: 10px;
+    height: 20.98px;
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+}
+
+.navigation {
+}
+
+.navigation-list {
+    display: flex;
+    list-style: none;
+}
+
+.navigation-item {
+    margin-right: 68px;
+    cursor: pointer;
+}
+
+.navigation-link {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+}
+
+.navigation-link:hover {
+    color: orange;
+}
+
+.copyright-block {
+}
+
+.copyright-title {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.4;
+    cursor: pointer;
+}
+
+/* --------HEADER-MAIN--------------- */
+.header-main {
+    background: url('../../assets/images/Giant\ Panda.jpg') 0 50% no-repeat;
+    background-size: cover;
+}
+
+.header-main .container {
+    height: 390px;
+}
+
+.header-main-inner {
+    height: 700px;
+    display: flex;
+    justify-content: right;
+    position: relative;
+}
+
+.watch-block {
+    max-width: 500px;
+    max-height: 400px;
+    margin-top: 86px;
+    /*     background-color:green; */
+    z-index: 1;
+}
+
+.watch-block-slogan {
+    font-weight: 700;
+    font-size: 106px;
+    line-height: 75%;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: normal;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.watch-block-orange-circle {
+    position: absolute;
+    right: 9.9%;
+    top: 1%;
+}
+
+.watch-button {
+    background-color: orange;
+    border-radius: 25px;
+    color: white;
+    padding: 16px 89px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 76px 0 0 90px;
+    border: none;
+}
+
+.watch-button:hover {
+    background-color: #E47209;
+}
+
+/* -----FOOTER----------- */
+footer {
+    background-color: #000000;
+}
+
+.container {
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0 0 0;
+}
+
+.footer-logo-block {
+    width: 82px;
+    height: 52px;
+    margin-right: 63px;
+    position: relative;
+    cursor: pointer;
+}
+
+.footer-logo-title {
+    font-size: 19px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+}
+
+.footer-logo-title2 {
+    text-align: center;
+}
+
+.footer-logo-icon {
+    position: absolute;
+    bottom: 11px;
+    left: 10px
+}
+
+.subscribe-block {
+}
+
+.subscribe-title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+}
+
+.subscribe-input-block {
+    margin: 14px 0 0 0;
+}
+
+.subscribe-input {
+    width: 228px;
+    height: 42px;
+    background-color: #000000;
+    border: 1px solid orange;
+    border-radius: 5px;
+    padding-left: 10px;
+    color: white;
+}
+
+.subscribe-button {
+    width: 129px;
+    height: 42px;
+    margin-left: 9px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+/* ----FOOTER-MIDDLE----- */
+.footer-middle {
+}
+
+.donate-button {
+    background-color: orange;
+    padding: 18px 41px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.4;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    /*     margin:0 0 140px 0; */
+}
+
+.donate-button:hover {
+    background-color: #E47209;
+}
+
+/* --FOOTER-BOTTOM----- */
+.footer-bottom {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+/* ---SOCIAL-BLOCK----- */
+.social-block {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.social-list {
+    list-style: none;
+}
+
+.social-item {
+    display: flex;
+    align-items: center;
+}
+
+.social-item img {
+    margin-right: 12px;
+}
+
+/* ---NAViGATION-BLOCK--------- */
+.footer-navigation-block {
+    display: flex;
+    align-items: flex-end;
+}
+
+.footer-navigation {
+}
+
+.footer-navigation-list {
+    list-style: none;
+    display: flex;
+}
+
+.footer-navigation-item {
+    margin-right: 48px;
+    cursor: pointer;
+}
+
+/* --DESIGNED-BLOCK----- */
+.designed-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    font-size: 16px;
+    font-weight: 100;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+    opacity: .2;
+}
+
+.designed-title {
+}
+
+.designed-copyright {
+}
+
+/* --------HELP-SECTION---------- */
+.donation {
+    background: linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%,
+                                rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%,
+                                #EAF7FE 127.9%, #EAF7FE 149.54%),
+        linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%,
+                        #FEBDAB 100.95%,
+                        rgba(254, 210, 144, 0.7) 106.36%);
+}
+
+.donation .container {
+  height:1482px;
+}
+
+.donation-inner {
+/*     max-width:1156px; */
+}
+
+.donation-title {
+     font-size: 1.6rem;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 46.8px;
+    padding:40px 0 0 0;
+}
+
+.donation-info {
+     font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+    padding:10px 0 40px 0;
+}
+
+.donation-subtitle {
+     font-size: 36px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.3;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fe9013;
+    padding:0 0 60px 0;
+}
+
+.friend-block {
+    background: rgba(255, 255, 255, 0.52);
+    height:964px;
+}
+
+.friend-title {
+      font-size: 48px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fe9013;
+    padding:40px 0 20px 0;
+}
+
+.friend-info {
+      font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: center;
+  color: #333b41;
+}
+
+/* ---COLORS_------- */
+.orange {
+    color: orange;
+}

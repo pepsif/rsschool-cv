@@ -8,7 +8,7 @@
     }
 
     .copyright-title {
-        display: none;
+        /*         display: none; */
     }
 
     .header-main {
@@ -32,48 +32,46 @@
         justify-content: space-evenly;
     }
 
-.gallery-bg {
-   
-    left: -5%;
-    bottom: 0%;
-    width: 222px;
-    height: 360px;
-    z-index:-1;
-}
-    
-.gallery-bg2 {
-    
-    right: -5%;
-    bottom: 0%;
-    width: 200px;
-    height: 275px;
-}
+    .gallery-bg {
+        left: -5%;
+        bottom: 0%;
+        width: 222px;
+        height: 360px;
+        z-index: -1;
+    }
 
-
-
-
-    
+    .gallery-bg2 {
+        right: -5%;
+        bottom: 0%;
+        width: 200px;
+        height: 275px;
+    }
 }
 
 /*   ----- MAX-WIDTH-1144PX------ */
-
-
 /* ---GALLERY--SLIDER-BUTTON---------- */
+@media (max-width: 1144px) and (max-width: 1066px) {
+    body {
+        /*     padding:20px; */
+    }
 
-@media (max-width: 1144px) and (max-width: 1144px) {
+ .card {
+        width: 295px;
+        height: 354px;
+    }
+    
     .gallery .container::before {
-        left: 4%;
+        left: -2%;
         top: 40%;
     }
 
     .gallery .container::after {
-        right: 4%;
+        right: -8%;
         top: 40%;
     }
-
-    
 }
-@media (max-width: 1078px)  {
+
+@media (max-width: 1078px) {
     .gallery .container::before {
         left: 0;
         top: 40%;
@@ -83,6 +81,46 @@
         right: 0;
         top: 40%;
     }
+}
 
-    
+/*    -----1000 PX------ */
+@media (max-width: 1001px) {
+    .backstage-image2 {
+        display:none;
+    }
+
+    .card {
+        width: 295px;
+        height: 354px;
+    }
+
+    .card:nth-child(-n+3) {
+        color: red;
+        margin-bottom: 92px;
+    }
+
+    .card .card-image {
+        width: 295px;
+        height: 295px;
+    }
+
+    /* ---ORANGE--BUTTONS----- */
+    .gallery .container::before {
+        left: 34%;
+        top: 38%;
+        transform: translateY(-50%);
+        z-index: 1;
+    }
+
+    .gallery .container::after {
+        right: 34%;
+        top: 38%;
+        transform: translateY(-50%);
+        z-index: 1;
+    }
+
+    /*     ----TESTMONIALS-BLOCK--- */
+    .review-card:nth-child(4) {
+        display: none;
+    }
 }

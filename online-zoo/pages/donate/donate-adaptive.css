@@ -1,0 +1,20 @@
+@media (max-width: 1200px) {
+    body {
+/*      padding:0 20px; */
+    }
+   .container {
+       padding:0 40px;
+   }
+    .header-inner {
+        justify-content: space-evenly;
+    }
+
+    .copyright-title {
+        display: none;
+    }
+
+    .header-main {
+        background: url('../../assets/images/Giant\ Panda.jpg') no-repeat;
+        background-size: auto;
+    }
+}

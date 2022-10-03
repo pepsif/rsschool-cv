@@ -96,6 +96,13 @@ header {
     cursor: pointer;
 }
 
+/*    ---BURGER-MENU------ */
+.burger-menu {
+    display:none;
+}
+.burger-image {
+}
+
 /* --------HEADER-MAIN--------------- */
 .header-main {
     background: url('../../assets/images/Giant\ Panda.jpg') no-repeat;

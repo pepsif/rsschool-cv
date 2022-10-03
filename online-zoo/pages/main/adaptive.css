@@ -126,41 +126,161 @@
 
 /*     -------640-PX---------- */
 @media screen and (max-device-width: 640px) {
-   .logo-block {
-       margin-left:20px;
-   }
-    .navigation-list {
-        display:none;
+    .container {
+        max-width:640px;
+        max-height: 500px;
     }
-.copyright-block {
-    display:none;
-} 
+
     .header-inner {
-        width: 200px;
+        /*       max-width:640px; */
+        display: flex;
         justify-content: space-between;
     }
 
-    body {
-        background-color: red;
+    .logo-block {
+        margin-left: 20px;
     }
 
-    .gallery-block {
+    .navigation-list {
         display: none;
+    }
+
+    .copyright-block {
+        display: none;
+    }
+
+    .burger-menu {
+        display: block;
+        margin-right: 40px;
+    }
+
+    .burger-image {
+        width: 150%;
+    }
+
+    .burger-image:hover {
+        cursor: pointer;
+        transform: scale(1.4);
+    }
+
+    .watch-block-slogan {
+        font-size: 54.3px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 0.75;
+    }
+
+    .watch-block-orange-circle {
+        width: 237px;
+    }
+
+    /*     ----BACKSTAGE------ */
+    .backstage-image {
+        display: none;
+    }
+
+    .backstage-section .container {
+        /*         display: flex; */
+        /*         justify-content: left; */
+        /*         background-color:red; */
+    }
+
+    .info-block {
+        margin: 40px 0 20px 20px;
+        position: relative;
+        max-width: 456px;
+    }
+
+    .backstage-image2 {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: -8%;
+        width: 150px;
+        height: 476px;
+    }
+
+    .infoblock-description {
+        margin-bottom: 30px;
+    }
+
+    .infoblock-subtitle {
+        margin-bottom: 20px;
+    }
+
+    /* -----GALLERY--PETS------- */
+    .gallery {
+        color: black;
+        margin-bottom: 520px;
+    }
+
+    /* ----ARROW--LEFT----- */
+    .gallery .container::before {
+        content: url('../../assets/icons/arrow_elips_2.png');
+        display: block;
+        /* background-color:red; */
+        position: absolute;
+        left: 220px;
+        top: 80%;
+        transform: translateY(-50%);
+        z-index: 1;
+    }
+
+    .gallery .container::after {
+        content: url('../../assets/icons/arrow_elips_1.png');
+        display: block;
+        /* background-color:red; */
+        position: absolute;
+        right: 220px;
+        top: 80%;
+        transform: translateY(-50%);
+        z-index: 1;
+    }
+
+    .card:nth-child(-n+4) {
+        color: black;
+    }
+
+    .card:not(:nth-child(-n+4)) {
+        /*    color:red; */
+        display: none;
+    }
+
+    .gallery-bg {
+        left: -0%;
+        bottom: -103%;
+        width: 134px;
+        height: 202px;
+    }
+.gallery-bg2 {
+    
+    right: -0%;
+    bottom: -103%;
+      width: 134px;
+        height: 202px;
+}
+    .choose-button {
+         margin: 0px 0 100px 50%;
+    }
+    body {
+        /*                         background-color: red; */
     }
 }
 
 /*    ----320-PX------ */
-
-@media screen and (max-device-width: 320px) {
-    .navigation-list {
-        display:none;
-    }
-
-    .header-inner {
-        justify-content: space-between;
-    }
-
+/* @media screen and (max-device-width: 320px) {
     body {
         background-color: green;
     }
 }
+
+.header-inner {
+    /*     justify-content: space-between; */
+}
+
+.navigation-list {
+    /*     display: none; */
+}
+
+*/

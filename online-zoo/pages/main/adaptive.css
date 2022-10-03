@@ -1,6 +1,6 @@
 @media (max-width: 1200px) {
     body {
-        /*          margin:0 0 0 20%; */ padding:0 20px;
+        /*          margin:0 0 0 20%; */ /* padding:0 20px; */
     }
 
     .header-inner {
@@ -12,8 +12,7 @@
     }
 
     .header-main {
-        background: url('../../assets/images/Giant\ Panda.jpg') no-repeat;
-        background-size: auto;
+        /*        background-size: cover; */
     }
 
     .info-block {
@@ -55,11 +54,11 @@
         /*     padding:20px; */
     }
 
- .card {
+    .card {
         width: 295px;
         height: 354px;
     }
-    
+
     .gallery .container::before {
         left: -2%;
         top: 40%;
@@ -122,5 +121,46 @@
     /*     ----TESTMONIALS-BLOCK--- */
     .review-card:nth-child(4) {
         display: none;
+    }
+}
+
+/*     -------640-PX---------- */
+@media screen and (max-device-width: 640px) {
+   .logo-block {
+       margin-left:20px;
+   }
+    .navigation-list {
+        display:none;
+    }
+.copyright-block {
+    display:none;
+} 
+    .header-inner {
+        width: 200px;
+        justify-content: space-between;
+    }
+
+    body {
+        background-color: red;
+    }
+
+    .gallery-block {
+        display: none;
+    }
+}
+
+/*    ----320-PX------ */
+
+@media screen and (max-device-width: 320px) {
+    .navigation-list {
+        display:none;
+    }
+
+    .header-inner {
+        justify-content: space-between;
+    }
+
+    body {
+        background-color: green;
     }
 }

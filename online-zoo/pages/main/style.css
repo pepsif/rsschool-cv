@@ -18,7 +18,7 @@ header {
 }
 
 .header-inner {
-    height: 80px;
+/*     height: 80px; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -35,6 +35,7 @@ header {
     margin-right: 63px;
     position: relative;
     cursor: pointer;
+    padding:14px 0;
 }
 
 .logo-title {
@@ -164,8 +165,7 @@ header {
 .backstage-section .container {
     position: relative;
     height: 800px;
-/*    background: url('../../assets/images/flower_foto1.png') 120% 0% no-repeat;  */
-    
+    /* background: url('../../assets/images/flower_foto1.png') 120% 0% no-repeat; */
 }
 
 .backstage-image {

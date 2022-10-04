@@ -253,16 +253,32 @@
         width: 134px;
         height: 202px;
     }
-.gallery-bg2 {
-    
-    right: -0%;
-    bottom: -103%;
-      width: 134px;
+
+    .gallery-bg2 {
+        right: -0%;
+        bottom: -103%;
+        width: 134px;
         height: 202px;
-}
-    .choose-button {
-         margin: 0px 0 100px 50%;
     }
+
+    .choose-button {
+        margin: 0px 0 100px 50%;
+    }
+
+    /*   ----Pick and feed a friend-----  */
+    .pick-and-feed {
+    }
+
+    .pick-container {
+        padding: 20px 0;
+    }
+
+    .pick-and-feed-wrapper {
+        height: 835px;
+       width:100%;
+background-color:#fde7d7;
+    }
+
     body {
         /*                         background-color: red; */
     }

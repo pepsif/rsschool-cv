@@ -46,6 +46,20 @@
         height: 275px;
     }
 }
+@media screen and (max-device-width: 1156px) and (min-device-width: 1010px)  {
+.gallery-block {
+/*     background-color:red; */
+    justify-content:center;
+}
+.cards-block {
+/*     background-color:red; */
+}    
+.card {
+   width:31%;
+}
+    
+}
+
 
 /*   ----- MAX-WIDTH-1144PX------ */
 /* ---GALLERY--SLIDER-BUTTON---------- */
@@ -59,7 +73,7 @@
         height: 354px;
     }
 
-    .gallery .container::before {
+/*     .gallery .container::before {
         left: -2%;
         top: 40%;
     }
@@ -67,7 +81,7 @@
     .gallery .container::after {
         right: -8%;
         top: 40%;
-    }
+    } */
 }
 
 @media (max-width: 1078px) {
@@ -94,8 +108,8 @@
     }
 
     .card:nth-child(-n+3) {
-        color: red;
-        margin-bottom: 92px;
+/*         color: red; */
+        margin:0 9px;
     }
 
     .card .card-image {

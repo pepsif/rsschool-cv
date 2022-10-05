@@ -106,7 +106,7 @@ header {
 
 /* --------HEADER-MAIN--------------- */
 .header-main {
-    background: url('../../assets/images/Giant\ Panda.jpg') no-repeat;
+    background: url('../assets/images/Giant\ Panda.jpg') no-repeat;
     background-size: cover;
 }
 
@@ -238,48 +238,53 @@ header {
     position: relative;
 }
 
-/* ----ARROW--LEFT----- */
-.gallery .container::before {
-    content: url('../../assets/icons/arrow_elips_2.png');
-    display: block;
-    /* background-color:red; */
-    position: absolute;
-    left: -70px;
-    top: 40%;
-    transform: translateY(-50%);
-    z-index: 1;
-}
-
-.gallery .container::after {
-    content: url('../../assets/icons/arrow_elips_1.png');
-    display: block;
-    /* background-color:red; */
-    position: absolute;
-    right: -70px;
-    top: 40%;
-    transform: translateY(-50%);
-    z-index: 1;
-}
-
 /* ----GALLERY-BLOCK---------- */
 .gallery-block {
-    /*     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between; */
+   
 }
 
 /* ----SLICK-SLIDER----------- */
-.slick-active {
+.slider {
+
+}
+.gallery-block .slick-arrow {
     /*     background-color:green; */
     /*     display:flex; */
+    width:62px;
+    height:62px;
+    border:none;
+}
+
+/*     ----ARROWS--------- */
+.gallery-block .slick-prev {
+
+    background: url('../assets/icons/arrow_elips_2.png')no-repeat;
+    display: block;
+    position: absolute;
+    left: -120px;
+    top: 40%;
+    z-index: 5;
+/*     border-radius:50%; */
+    font-size:0;
+  
+}
+
+.gallery-block .slick-next {
+   
+        background: url('../assets/icons/arrow_elips_1.png')no-repeat;
+    display: block;
+    position: absolute;
+    right: -120px;
+    top: 40%;
+    z-index: 5;
+/*     border-radius:50%; */
+    font-size:0;
 }
 
 .cards-block {
     display: flex;
-    /*     flex-wrap: wrap;  */
-    /*     flex-direction:column;
-    background-color:red;
-/*    padding:0 10%; */
+        flex-wrap:nowrap; 
+ justify-content:center;
 }
 
 .card {
@@ -287,7 +292,7 @@ header {
     height: 426px;
     position: relative;
     border: 1px solid #E5E5E5;
-    margin: 0 0 20px 0;
+    margin:0px 9px;
 }
 
 .card img {
@@ -435,14 +440,14 @@ header {
 }
 
 .pick-list li:nth-child(2)::before {
-    content: url('../../assets/icons/arrow-right.png');
+    content: url('../assets/icons/arrow-right.png');
     position: absolute;
     top: 20%;
     left: -5rem;
 }
 
 .pick-list li:nth-child(2)::after {
-    content: url('../../assets/icons/arrow-right.png');
+    content: url('../assets/icons/arrow-right.png');
     position: absolute;
     top: 20%;
     right: -5rem;

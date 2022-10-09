@@ -288,7 +288,10 @@ header {
         flex-wrap:nowrap; 
  justify-content:center;
 }
-
+.card-wrapper {
+   
+    overflow:hidden;
+}
 .card {
     width: 366px;
     height: 426px;

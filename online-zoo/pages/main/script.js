@@ -1,15 +1,15 @@
 //   --RANDOM-CARDS-IN-SLIDER--GENERATOR----
-const slickButtonPrev = document.getElementsByClassName('.slick-prev');
+const slickButtonPrev = document.querySelector('.gallery-block');
 
 
-const slickButtonNext = document.querySelector('.slick-next');
 
-console.log(slickButtonPrev)
+
+console.log(slickButtonPrev.classList.slick-slider)
 
 const cardsBlock = document.querySelector('.cards-block');
 const cards = document.querySelectorAll('.card');
 const arrCards = Array.from(cardsBlock.children);
-const randomOrder = arrCards.forEach(elem => {
+const randomOrder = arrCards.forEach( elem => {
   elem.style.order = getRandomInt(1,7)
         // console.log(elem)
 })

@@ -4,7 +4,7 @@ const slickButtonPrev = document.querySelector('.gallery-block');
 
 
 
-console.log(slickButtonPrev.classList.slick-slider)
+
 
 const cardsBlock = document.querySelector('.cards-block');
 const cards = document.querySelectorAll('.card');

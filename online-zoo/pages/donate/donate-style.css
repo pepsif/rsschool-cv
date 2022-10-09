@@ -23,6 +23,7 @@ header {
     align-items: center;
     justify-content: space-between;
 }
+/* ---------LOGO------------------- */
 
 .logo-navigation-block {
     display: flex;
@@ -31,10 +32,13 @@ header {
 
 /* ---------LOGO------------------- */
 .logo-block {
+    width:82px;
     height: 52px;
-    margin-right: 63px;
+    margin:14px 63px 14px 0px;
     position: relative;
     cursor: pointer;
+  
+    border:2px solid white;
 }
 
 .logo-title {
@@ -370,6 +374,7 @@ background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 
 .friend-block {
     background: rgba(255, 255, 255, 0.52);
     height:964px;
+  border-radius:16px;
 }
 
 .friend-title {
@@ -386,14 +391,113 @@ background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 
 
 .friend-info {
       font-size: 24px;
-  font-weight: normal;
+  font-weight: 400;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.2;
   letter-spacing: normal;
-  text-align: center;
+/*   text-align: center; */
+   margin-left:96px;
   color: #333b41;
 }
+/*    ---PANDA-BLOCK---- */
+
+.panda-block {
+  color:black;
+  display:flex;
+  justify-content:center;
+  
+}
+.counter-block {
+  display:flex;
+position:relative;
+  align-items:center;
+  justify-content:center;
+  flex-direction:column;
+  margin:70px 64px 0 0;
+}
+.counter-number {
+   font-size: 72px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.8;
+}
+.counter-info {
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  margin-top:11px;
+}
+.counter-x {
+  position:absolute;
+  right:-0%;
+  top:35%;
+}
+.panda-icon {
+}
+
+/* ----INPUT-RANGE-BLOCK----- */
+.input-range-amount {
+  font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+  color:black;
+  margin-left:96px;
+}
+.input-range-block {
+}
+.input-range {
+}
+.dollars-scale-block {
+}
+
+/*    ------EXAMPLE----*/
+.value {
+/*   border-bottom: 4px dashed #bdc3c7; */
+  text-align: center;
+/*   font-weight: bold; */
+  font-size: 4em;
+  width: 300px; 
+  height: 100px;
+  line-height: 60px;
+  margin: 40px auto;
+  letter-spacing: -.07em;
+  text-shadow: white 2px 2px 2px;
+}
+input[type="range"] {
+  display: block;
+  -webkit-appearance: none;
+  background-color: #bdc3c7;
+  width: 300px;
+  height: 5px;
+  border-radius: 5px;
+  margin: 0 auto;
+  outline: 0;
+}
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background-color: #e74c3c;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid white;
+  cursor: pointer;
+  transition: .3s ease-in-out;
+}
+  input[type="range"]::-webkit-slider-thumb:hover {
+    background-color: white;
+    border: 2px solid #e74c3c;
+  }
+  input[type="range"]::-webkit-slider-thumb:active {
+    transform: scale(1.6);
+  }
+ 
+
+
 
 /* ---COLORS_------- */
 .orange {

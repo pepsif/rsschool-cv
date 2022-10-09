@@ -3,13 +3,14 @@ body {
     /* background-color: #837474; */
     font-family: "Roboto",sans-serif;
     /*     margin:0 auto; */
-    overflow-x:hidden;
+    overflow-x: hidden;
+    margin: 0 auto;
 }
 
 .container {
     max-width: 1160px;
     /*     background-color: red; */
-    margin: 0 auto;
+    margin: auto;
 }
 
 /*     ---------HEADER------------- */
@@ -31,13 +32,12 @@ header {
 
 /* ---------LOGO------------------- */
 .logo-block {
-    width:82px;
+    width: 82px;
     height: 52px;
-    margin:14px 63px 14px 0px;
+    margin: 14px 63px 14px 0px;
     position: relative;
     cursor: pointer;
-  
-    border:2px solid white;
+    border: 2px solid white;
 }
 
 .logo-title {
@@ -169,15 +169,15 @@ header {
 
 /* -------BACKSTAGE-SECTION-------- */
 .backstage-section {
-    /*     background-color:red; */
+    background: url("../assets/images/flower_foto1.png") top right no-repeat;
     color: black;
-    /*    z-index:-1; */
+    overflow: hidden;
 }
 
 .backstage-section .container {
     position: relative;
     height: 800px;
-    /* background: url('../../assets/images/flower_foto1.png') 120% 0% no-repeat; */
+    /*     background: url('../../assets/images/flower_foto1.png') 120% 0% no-repeat; */
 }
 
 .backstage-image {
@@ -193,6 +193,7 @@ header {
     right: -20%;
     width: 20%;
     height: 80%;
+    z-index: -2;
 }
 
 .info-block {
@@ -233,71 +234,71 @@ header {
 /* -------PETS-GALLERY----------- */
 .gallery {
     color: black;
+    overflow: hidden;
+    background: url('../../assets/images/palm_foto.png')bottom left no-repeat, url('../../assets/images/strelitzia 1.png')bottom right no-repeat;
+    background-size: 20% 20%;
+ 
 }
 
 .gallery .container {
-    /*         background-color:red; */
+        
     position: relative;
 }
 
 /* ----GALLERY-BLOCK---------- */
 .gallery-block {
-   
 }
 
 /* ----SLICK-SLIDER----------- */
 .slider {
-
 }
+
 .gallery-block .slick-arrow {
-    /*     background-color:green; */
-    /*     display:flex; */
-    width:62px;
-    height:62px;
-    border:none;
+    margin: 0 40px;
+    width: 62px;
+    height: 62px;
+    border: none;
 }
 
 /*     ----ARROWS--------- */
 .gallery-block .slick-prev {
-
     background: url('../assets/icons/arrow_elips_2.png')no-repeat;
     display: block;
     position: absolute;
     left: -120px;
     top: 40%;
     z-index: 5;
-/*     border-radius:50%; */
-    font-size:0;
-  
+    /*     border-radius:50%; */
+    font-size: 0;
 }
 
 .gallery-block .slick-next {
-   
-        background: url('../assets/icons/arrow_elips_1.png')no-repeat;
+    background: url('../assets/icons/arrow_elips_1.png')no-repeat;
     display: block;
     position: absolute;
     right: -120px;
     top: 40%;
     z-index: 5;
-/*     border-radius:50%; */
-    font-size:0;
+    /*     border-radius:50%; */
+    font-size: 0;
 }
 
 .cards-block {
     display: flex;
-        flex-wrap:nowrap; 
- justify-content:center;
+    flex-wrap: nowrap;
+    justify-content: center;
 }
+
 .card-wrapper {
-   
-    overflow:hidden;
+    overflow: hidden;
 }
+
 .card {
     width: 366px;
     height: 426px;
     position: relative;
     border: 1px solid #E5E5E5;
-    margin:0px 9px;
+    margin: 0px 9px;
 }
 
 .card img {
@@ -351,7 +352,7 @@ header {
     background-color: #E47209;
 }
 
-.gallery-bg {
+/* .gallery-bg {
     position: absolute;
     left: -20%;
     bottom: 0%;
@@ -365,8 +366,7 @@ header {
     bottom: 0%;
     width: 368px;
     height: 275px;
-}
-
+} */
 /* ----PICK-AND-FEED-SECTION----- */
 .pick-and-feed {
     background-image: linear-gradient(330deg, rgba(254, 210, 144, 0.7) 71%, #febdab -1%, rgba(254, 210, 144, 0.7) -7%), linear-gradient(330deg, rgba(254, 189, 171, 0.74) 71%, rgba(243, 169, 248, 0.66) 50%, #e0d8f0 20%, #eaf7fe -28%, #eaf7fe -50%), linear-gradient(330deg, rgba(254, 189, 171, 0.74) 71%, rgba(243, 169, 248, 0.66) 50%, #e0d8f0 20%, #eaf7fe -28%, #eaf7fe -50%);
@@ -481,6 +481,7 @@ header {
 /* -------TESTIMONIALS--ARTICLE----- */
 .testimonials {
     color: black;
+    background: url('../../assets/images/leav_foto.jpg') bottom right no-repeat;
 }
 
 .testmonials-container {
@@ -510,7 +511,7 @@ header {
     height: 391px;
     border: 2px solid red;
     border-radius: 20px;
-    /*     margin-right:30px; */
+    margin-right: 30px;
 }
 
 .card-title-block {

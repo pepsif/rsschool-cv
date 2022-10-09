@@ -1,3 +1,10 @@
+@media (max-width: 1560px) {
+    .backstage-section {
+        background:none;
+        color: black;
+    }
+}
+
 @media (max-width: 1200px) {
     body {
         /*          margin:0 0 0 20%; */ /* padding:0 20px; */
@@ -46,20 +53,20 @@
         height: 275px;
     }
 }
-@media screen and (max-device-width: 1156px) and (min-device-width: 1010px)  {
-.gallery-block {
-/*     background-color:red; */
-    justify-content:center;
-}
-.cards-block {
-/*     background-color:red; */
-}    
-.card {
-   width:31%;
-}
-    
-}
 
+@media screen and (max-device-width: 1156px) and (min-device-width: 1010px) {
+    .gallery-block {
+        /*     background-color:red; */ justify-content:center;
+    }
+
+    .cards-block {
+        /*     background-color:red; */
+    }
+
+    .card {
+        width: 31%;
+    }
+}
 
 /*   ----- MAX-WIDTH-1144PX------ */
 /* ---GALLERY--SLIDER-BUTTON---------- */
@@ -73,7 +80,7 @@
         height: 354px;
     }
 
-/*     .gallery .container::before {
+    /*     .gallery .container::before {
         left: -2%;
         top: 40%;
     }
@@ -108,8 +115,8 @@
     }
 
     .card:nth-child(-n+3) {
-/*         color: red; */
-        margin:0 9px;
+        /*         color: red; */
+        margin: 0 9px;
     }
 
     .card .card-image {
@@ -229,27 +236,25 @@
         margin-bottom: 520px;
     }
 
-  /*     ----ARROWS--------- */
-.gallery-block .slick-prev {
- 
-    left: -80px;
-    top: 40%;
-    z-index: 5;
-    /*     border-radius:50%; */
-    font-size: 0;
-}
+    /*     ----ARROWS--------- */
+    .gallery-block .slick-prev {
+        left: -80px;
+        top: 40%;
+        z-index: 5;
+        /*     border-radius:50%; */
+        font-size: 0;
+    }
 
-.gallery-block .slick-next {
-  
-    right: -80px;
-    top: 40%;
-    z-index: 5;
-    /*     border-radius:50%; */
-    font-size: 0;
-}
+    .gallery-block .slick-next {
+        right: -80px;
+        top: 40%;
+        z-index: 5;
+        /*     border-radius:50%; */
+        font-size: 0;
+    }
 
     .card {
-/*         margin:0 0 60px 0;
+        /*         margin:0 0 60px 0;
         background-color:red; */
     }
 
@@ -290,8 +295,8 @@
 
     .pick-and-feed-wrapper {
         height: 835px;
-       width:100%;
-background-color:#fde7d7;
+        width: 100%;
+        background-color: #fde7d7;
     }
 
     body {

@@ -2,13 +2,13 @@
 const slickButtonPrev = document.querySelector('.gallery-block');
 
 
-<<<<<<< HEAD
+
 console.log(slickButtonPrev)
-=======
 
 
 
->>>>>>> 13c6c7e241929bf5f283fa6082519c4ac8c58ad1
+
+
 
 const cardsBlock = document.querySelector('.cards-block');
 const cards = document.querySelectorAll('.card');

@@ -1,11 +1,17 @@
-@media (max-width: 1560px) {
+@media screen and (max-width: 1560px) {
     .backstage-section {
         background:none;
         color: black;
     }
 }
 
-@media (max-width: 1200px) {
+@media screen and (min-width: 1126px) and (max-width: 1426px) {
+    .gallery .container {
+        padding:0 130px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
     body {
         /*          margin:0 0 0 20%; */ /* padding:0 20px; */
     }
@@ -91,7 +97,9 @@
     } */
 }
 
-@media (max-width: 1078px) {
+/*     ----MAX-WIDTH--1070PX---- */
+
+@media screen and (max-width: 1078px) {
     .gallery .container::before {
         left: 0;
         top: 40%;
@@ -104,9 +112,14 @@
 }
 
 /*    -----1000 PX------ */
+
 @media (max-width: 1001px) {
+    .backstage-section .container {
+        margin:0 20px;
+    }
+
     .backstage-image2 {
-        display:none;
+        display: none;
     }
 
     .card {
@@ -115,13 +128,26 @@
     }
 
     .card:nth-child(-n+3) {
-        /*         color: red; */
-        margin: 0 9px;
+        /*                 color: red; */
+        margin: 0 9px 93px 0;
     }
 
     .card .card-image {
         width: 295px;
         height: 295px;
+    }
+.gallery {
+/*     padding: 0 0px; */
+}
+    
+    .gallery-block .slick-prev {
+        left: 30%;
+        top: 41%;
+    }
+
+    .gallery-block .slick-next {
+        right: 32%;
+        top: 41%;
     }
 
     /* ---ORANGE--BUTTONS----- */
@@ -139,25 +165,64 @@
         z-index: 1;
     }
 
+/*     .review-block:nth-child(2) {
+        padding: 30px;
+    } */
+
     /*     ----TESTMONIALS-BLOCK--- */
-    .review-card:nth-child(4) {
+    .testimonials-title {
+        margin:80px 0 40px 0;
+    }
+    
+    .review-block .slick-list .slick-track  {
+       display:flex;
+        justify-content:center;
+    }
+    .review-card {/* width:293px; */}
+    
+    
+    .review-card:nth-child(-n+1) {
         display: none;
+    }
+    .leave-button {
+        margin-left:30px;
+    }
+    
+
+    
+}
+
+@media screen and (min-device-width: 640px) {
+    .header-inner {
+        padding:0 20px;
     }
 }
 
 /*     -------640-PX---------- */
 @media screen and (max-device-width: 640px) {
-    .container {
-        max-width:640px;
-        max-height: 500px;
+  body {
+/*       background-color:red; */
+  }
+    header {
+/*        width:100%; */
+/*       padding: 0 auto; */
+/*          background-color:red; */
+        
     }
-
+    header .container {
+        max-width:640px;
+/*         max-height: 500px; */
+    }
+  
     .header-inner {
         /*       max-width:640px; */
         display: flex;
         justify-content: space-between;
     }
 
+    .header-main {
+        
+    }
     .logo-block {
         margin-left: 20px;
     }

@@ -8,9 +8,9 @@ body {
 }
 
 .container {
-    max-width: 1160px;
-    /*     background-color: red; */
-    margin: auto;
+    max-width: 1130px;
+     padding:0 15px;
+    margin:0 auto;
 }
 
 /*     ---------HEADER------------- */
@@ -23,6 +23,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+  
 }
 
 .logo-navigation-block {
@@ -172,20 +173,22 @@ header {
     background: url("../assets/images/flower_foto1.png") top right no-repeat;
     color: black;
     overflow: hidden;
+    width:100%;
 }
 
 .backstage-section .container {
     position: relative;
     height: 800px;
-    /*     background: url('../../assets/images/flower_foto1.png') 120% 0% no-repeat; */
+   
 }
 
 .backstage-image {
     position: absolute;
     left: 0;
-    top: 140px;
+    top: 19%;
     width: 50%;
     height: 50%;
+   
 }
 
 .backstage-image2 {
@@ -237,12 +240,11 @@ header {
     overflow: hidden;
     background: url('../../assets/images/palm_foto.png')bottom left no-repeat, url('../../assets/images/strelitzia 1.png')bottom right no-repeat;
     background-size: 20% 20%;
- 
 }
 
 .gallery .container {
-        
     position: relative;
+   
 }
 
 /* ----GALLERY-BLOCK---------- */
@@ -263,23 +265,19 @@ header {
 /*     ----ARROWS--------- */
 .gallery-block .slick-prev {
     background: url('../assets/icons/arrow_elips_2.png')no-repeat;
-    display: block;
     position: absolute;
     left: -120px;
     top: 40%;
     z-index: 5;
-    /*     border-radius:50%; */
     font-size: 0;
 }
 
 .gallery-block .slick-next {
     background: url('../assets/icons/arrow_elips_1.png')no-repeat;
-    display: block;
     position: absolute;
     right: -120px;
     top: 40%;
     z-index: 5;
-    /*     border-radius:50%; */
     font-size: 0;
 }
 
@@ -302,6 +300,7 @@ header {
 }
 
 .card img {
+    max-width:100%;
     border-radius: 10px;
 }
 
@@ -352,21 +351,6 @@ header {
     background-color: #E47209;
 }
 
-/* .gallery-bg {
-    position: absolute;
-    left: -20%;
-    bottom: 0%;
-    width: 292px;
-    height: 460px;
-}
-
-.gallery-bg2 {
-    position: absolute;
-    right: -20%;
-    bottom: 0%;
-    width: 368px;
-    height: 275px;
-} */
 /* ----PICK-AND-FEED-SECTION----- */
 .pick-and-feed {
     background-image: linear-gradient(330deg, rgba(254, 210, 144, 0.7) 71%, #febdab -1%, rgba(254, 210, 144, 0.7) -7%), linear-gradient(330deg, rgba(254, 189, 171, 0.74) 71%, rgba(243, 169, 248, 0.66) 50%, #e0d8f0 20%, #eaf7fe -28%, #eaf7fe -50%), linear-gradient(330deg, rgba(254, 189, 171, 0.74) 71%, rgba(243, 169, 248, 0.66) 50%, #e0d8f0 20%, #eaf7fe -28%, #eaf7fe -50%);
@@ -444,20 +428,6 @@ header {
     justify-content: space-evenly;
 }
 
-.pick-list li:nth-child(2)::before {
-    content: url('../assets/icons/arrow-right.png');
-    position: absolute;
-    top: 20%;
-    left: -5rem;
-}
-
-.pick-list li:nth-child(2)::after {
-    content: url('../assets/icons/arrow-right.png');
-    position: absolute;
-    top: 20%;
-    right: -5rem;
-}
-
 .pick-item {
     width: 168px;
     height: 244px;
@@ -477,7 +447,14 @@ header {
 .pick-info {
     margin-top: 30px;
 }
+.arrow-right {
+    background-color:transparent;
+    border:none;
+    width:69px;
+    height:35px;
+    padding-top:50%;
 
+}
 /* -------TESTIMONIALS--ARTICLE----- */
 .testimonials {
     color: black;
@@ -550,7 +527,7 @@ header {
 }
 
 .card-review-text {
-    padding: 10px 15px 10px 17px;
+    /* padding: 10px 15px 10px 17px; */
     font-weight: 300;
     font-size: 15px;
     line-height: 120%;
@@ -602,6 +579,7 @@ header {
 /* -----FOOTER----------- */
 footer {
     background-color: #000000;
+    padding: 0 43px;
 }
 
 .container {

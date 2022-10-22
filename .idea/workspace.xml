@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="53f66d62-75a6-4bc9-92ff-cb4c127d9ec2" name="Changes" comment="init: start new project Gem Puzzle">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15-5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="RSS-Gem-Puzzle" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2FAK50ygZiuk1zxwBQSQVhmO4wC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "F:/Sites/rsschool-cv/online-zoo",
+    "list.type.of.created.stylesheet": "CSS",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "extract.css.actions.ExtractCSSConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Sites\rsschool-cv\online-zoo\online-zoo\pages\main" />
+      <recent name="F:\Sites\rsschool-cv\online-zoo\online-zoo" />
+      <recent name="F:\Sites\rsschool-cv\online-zoo\online-zoo\pages\main\styles" />
+      <recent name="F:\Sites\rsschool-cv\online-zoo\online-zoo\assets" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="53f66d62-75a6-4bc9-92ff-cb4c127d9ec2" name="Changes" comment="" />
+      <created>1663929267047</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663929267047</updated>
+      <workItem from="1663929294662" duration="1039000" />
+      <workItem from="1663938827313" duration="784000" />
+      <workItem from="1663959630923" duration="18000" />
+      <workItem from="1664433311606" duration="82000" />
+      <workItem from="1664576352142" duration="16000" />
+      <workItem from="1664782626961" duration="959000" />
+      <workItem from="1664891064354" duration="38000" />
+      <workItem from="1664951259290" duration="422000" />
+      <workItem from="1664951929845" duration="1128000" />
+      <workItem from="1664953206710" duration="2888000" />
+      <workItem from="1665432506707" duration="19000" />
+      <workItem from="1666247104515" duration="166000" />
+      <workItem from="1666270127046" duration="89000" />
+      <workItem from="1666372566256" duration="322000" />
+      <workItem from="1666372914322" duration="1893000" />
+      <workItem from="1666419956162" duration="1186000" />
+      <workItem from="1666421168735" duration="506000" />
+      <workItem from="1666421762024" duration="565000" />
+      <workItem from="1666423806249" duration="59000" />
+      <workItem from="1666424137134" duration="195000" />
+      <workItem from="1666424401342" duration="134000" />
+      <workItem from="1666424543398" duration="46000" />
+      <workItem from="1666459086026" duration="15000" />
+      <workItem from="1666459230469" duration="781000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat: create Online Zoo">
+      <created>1663929376224</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1663929376224</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: create directory for project">
+      <created>1663939324766</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1663939324766</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: short edit">
+      <created>1666372723749</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666372723749</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: short edit">
+      <created>1666420497229</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666420497229</updated>
+    </task>
+    <task id="LOCAL-00005" summary="init: start new project Gem Puzzle">
+      <created>1666459858171</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666459858171</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: create Online Zoo" />
+    <MESSAGE value="feat: create directory for project" />
+    <MESSAGE value="feat: short edit" />
+    <MESSAGE value="init: start new project Gem Puzzle" />
+    <option name="LAST_COMMIT_MESSAGE" value="init: start new project Gem Puzzle" />
+  </component>
+</project>

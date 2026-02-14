@@ -1,1 +1,126 @@
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+    padding: 0;
+}
 
+body {
+    margin: 0;
+    padding: 40px;
+
+    font-family: "Inter", sans-serif;
+    background: url('../assets/images/bg.png') no-repeat center center;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.hero {
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+.hero-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-title {
+    font-weight: 400;
+    font-size: 40px;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+.hero-sub-title {
+    margin: 10px 0;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 42px;
+
+    text-align: center;
+
+}
+
+.hero-desc-block {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    .hero-desc {
+        margin: 10px 0;
+        font-weight: 400;
+        font-size: 18px;
+        text-align: center;
+        opacity: 0.6;
+    }
+
+    .hero-desc-icon {
+        width: 40px;
+        height: 30px;
+        margin: 0 10px;
+    }
+
+    .hero-photo {
+        max-width: 120px;
+        margin: 0 10%;
+        border-radius: 20%;
+    }
+
+}
+
+
+.hero-icons-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-icons-link {
+    margin: 10px 10px;
+}
+
+.hero-description {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    opacity: 0.6;
+}
+
+.hero-content {
+    flex-basis: 70%;
+    padding: 10px;
+}
+
+.photo-block {
+
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* SKILLS */
+.skills {
+
+    margin: 20px 0;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}

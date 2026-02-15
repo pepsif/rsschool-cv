@@ -115,7 +115,6 @@ body {
 }
 
 
-
 /* SKILLS */
 .skills {
 
@@ -123,4 +122,69 @@ body {
     padding: 20px;
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
+
+    position: relative; /* Обов'язково для позиціонування фонового тексту */
+    overflow: hidden;    /* Щоб великі букви не вилазили за межі блоку */
+}
+.skills::before {
+    content: "SKILLS";      /* Текст на фоні */
+    position: absolute;
+    top: 50%;               /* Центруємо по вертикалі */
+    left: 50%;              /* Центруємо по горизонталі */
+    transform: translate(-50%, -50%) rotate(-10deg); /* Точне центрування */
+    
+    
+    font-size: 150px;       /* Робимо текст дуже великим */
+    font-weight: 900;       /* Максимально жирний */
+    color: rgba(0, 0, 0, 0.09); /* Дуже прозорий колір (ледве помітний) */
+    
+    pointer-events: none;   /* Щоб по тексту не можна було клікнути */
+    z-index: 0;             /* Відправляємо на задній план */
+    letter-spacing: 26px;   /* Розтягуємо літери для стилю */
+}
+
+
+.skills-blocks {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+
+     position: relative;
+    z-index: 1;
+}
+
+
+.skills-left_block,
+.skills-right_block {
+    max-width: 360px;
+    padding: 20px;
+   
+}
+.skills-block__title {
+    font-style: italic;
+}
+.skills-list {
+    padding: 0;
+}
+
+.skills-list__item {
+    display: flex;
+    align-items: center;
+    margin: 6px 0;
+    font-weight: 400;
+    opacity: 0.6;
+
+    .skill-rating-star {
+        width: 18px;
+        height: 18px;
+
+    }
+
+    .skill-rating-star:first-child {
+        margin-left: 6px;
+
+    }
 }
